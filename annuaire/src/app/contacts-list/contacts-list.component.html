@@ -1,1 +1,56 @@
-<p>contacts-list works!</p>
+<p>liste-contact works!</p>
+<h1>Annuaire d'une entreprise</h1>
+
+<div class="card" style="width: 18rem">
+  <img
+    src="./assets/pexels-pixabay-269077.jpg"
+    class="card-img-top"
+    alt="entreprise"
+  />
+  <div class="card-body">
+    <h5 class="card-title">Client 1</h5>
+    <div class="contact">
+      <div *ngFor="let contact of contacts">
+        <!-- <td>{{ contact.id }}</td> -->
+        <br />
+        <td>{{ contact.name }}</td>
+        <br />
+        <td>{{ contact.adresse }}</td>
+        <br />
+        <td>{{ contact.type }}</td>
+      </div>
+    </div>
+    
+    <a href="#" class="btn btn-primary">Pour savoir plus</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+  <div class="card">
+    <div class="table" *ngIf="contacts.length > 0"> 
+      <div class="carte">
+        <div class="image">
+          <img src="/annuaire/src/app/img/pexels-pixabay-269077.jpg" alt="" />
+        </div>
+        <div class="contact">
+          <div *ngFor="let contact of contacts">
+            <td>{{ contact.id }}</td>
+            <br />
+            <td>{{ contact.name }}</td>
+            <br />
+            <td>{{ contact.adresse }}</td>
+            <br />
+            <td>{{ contact.type }}</td>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

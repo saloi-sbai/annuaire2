@@ -1,6 +1,7 @@
 export class contact{
-    id! : number;
+    // id! : number;
     name! : string;
     adresse! : string;
     type! : string;
+    
 }
