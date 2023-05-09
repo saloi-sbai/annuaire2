@@ -10,7 +10,7 @@ export class InfosService {
       // id: 1,
       name: 'thomas',
       adresse: '32 rue gambeta',
-      type: "client"
+      // type: "client"
     }
     // {
     //   id: 2,

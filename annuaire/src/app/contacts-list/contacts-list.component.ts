@@ -16,7 +16,7 @@ export class ContactsListComponent implements OnInit {
       // id: 1,
       name: 'thomas Dupont',
       adresse: '32 rue gambeta',
-      type: 'client',
+      // type: 'client',
     }
     // {
     //   id: 2,
